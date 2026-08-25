@@ -1,10 +1,8 @@
-streamlit
-fastapi
-uvicorn
-pandas
-joblib
-requests
-scikit-learn
-hospital.jpg
-icons8-hospital-50.png
+streamlit==1.37.0
+fastapi==0.115.0
+uvicorn==0.30.6
+pandas==2.2.2
+joblib==1.4.2
+requests==2.32.3
+scikit-learn==1.5.1
 
