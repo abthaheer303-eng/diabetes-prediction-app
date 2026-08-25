@@ -8,7 +8,7 @@ app = FastAPI(title='Diabetes prediction')
 
     
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-pipe = joblib.load(os.path.join(BASE_DIR, 'model' , 'pipe.pkl'))
+pipe = joblib.load(os.path.join(BASE_DIR, 'pipe.pkl'))
 
 class InputData(BaseModel):
     gender: str
