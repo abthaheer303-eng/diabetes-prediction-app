@@ -4,7 +4,7 @@ import joblib
 import requests
 
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "http://diabetes-prediction-app-a874.onrender.com/predict"
 
 st.set_page_config(page_title='Diabetes prediction',layout='wide',page_icon="icons8-hospital-50.png", initial_sidebar_state='collapsed')
 
